@@ -15,9 +15,9 @@ public class Program1 {
 
 // USING equals() METHOD (CASE SENSITIVE COMPARISON)
 		if (str.equals(str1)) {
-			System.out.println("Str & str1 are equal using equals()");
+			System.out.println("str & str1 are equal using equals()");
 		} else {
-			System.out.println("Str & str1 are not equal using equals()");
+			System.out.println("str & str1 are not equal using equals()");
 		}
 //----------------------------------------------------------------------------
 
