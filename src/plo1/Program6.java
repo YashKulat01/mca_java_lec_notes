@@ -9,7 +9,7 @@ public class Program6 {
 // PROGRAM 6:
 // WRITE A PROGRAM TO CONVERT A DATR OBJECT TO A STRING IN A SPECIFIC FORMAT;
 
-		System.out.println("Program 6:\n");
+		System.out.println(" \n Program 6:\n");
 
 // CREATE A DATE OBJECT REPRESENTING THE CURRENT DATE AND TIME;
 		Date currDate = new Date();
@@ -21,6 +21,6 @@ public class Program6 {
 		String formattedDate = format.format(currDate);
 
 // PRINT THE FORMATTED DATE;
-		System.out.println("Formatted Date: " + formattedDate);
+		System.out.println(" Formatted Date: " + formattedDate);
 	}
 }

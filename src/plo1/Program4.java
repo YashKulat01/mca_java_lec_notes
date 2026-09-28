@@ -10,12 +10,12 @@ public class Program4 {
 
 		System.out.println("Program 4:");
 
-		String para = "This is the first sentence. Is this the second sentence? Yes! It is the thirdone.";
+		String para = "This is the first sentence. Is this the second sentence? Yes! It is the third one.";
 
 // SPLIT THE PARAGRAPH INTO SENTENCES BASED ON DELIMITERS LIKE '.', '?';
 		String[] sentences = para.split("[.?!]");
 
-		System.out.println("Main Paragraph: " + para);
+//		System.out.println("Main Paragraph: " + para);
 
 // PRINT EACH SENTENCE
 		System.out.println("\nSeparated Paragraph:");
