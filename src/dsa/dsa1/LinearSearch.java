@@ -2,6 +2,29 @@ package dsa.dsa1;
 
 import java.util.Scanner;
 
+/*
+ * Linear Search is a searching algorithm that checks each element of 
+ * an array one by one until the required element is found or an array 
+ * ends.
+ * 
+ * Also known as Sequential Search.
+ * 
+ * Time Complexity: 
+ * 					Best: O(1)
+ * 					Avg: O(n)
+ * 					Worst: O(n)
+ * 
+ * Space Complexity: O(1)
+ * 
+ * Adv: Simple & easy
+ * 		Works with sorted/ unsorted arrays.
+ * 		Does not require extra data structures.
+ * 		Suitable for small data structure.
+ * 
+ * DisAdv: Slower for large arrays
+ * 
+ */
+
 public class LinearSearch {
 
 	public static void linearSrch(int[] arr, int n, int key) {

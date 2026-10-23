@@ -1,7 +1,12 @@
 package dsa.dsa2;
 
 import java.util.Scanner;
-
+/*
+ * Insertion Sort is a simple sorting algorithm that sorts an array by taking
+ * one element at a time and inserting it into its correct position in the 
+ * already-sorted portion of the array.
+ * 
+ */
 public class InsertionSort {
 	static void Sort(int[] a, int n) {
 		int temp, PTR, i;

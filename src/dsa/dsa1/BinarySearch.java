@@ -1,13 +1,28 @@
 package dsa.dsa1;
 
 import java.util.Scanner;
-
+/*
+ * Binary search is a searching algorithm used to find an element in a 
+ * sorted array. It works by repeatedly dividing the search range into 
+ * two halves.
+ * 
+ * Time complexity: 
+ * 					Best: O(1)
+					Avg: O(log n)
+					Worst: O(log n)
+					
+ * Space complexity: O(1)
+ * 
+ * Adv: Faster than linear search 
+ * 
+ * Disadv: Works only with sorted array.
+ */
 public class BinarySearch {
 
 	public static void binarySrch(int a[], int low, int high, int key) {
-		
+
 		high = a.length - 1;
-		
+
 		while (low <= high) {
 			int mid = (low + high) / 2;
 			if (a[mid] == key) {
