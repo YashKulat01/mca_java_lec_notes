@@ -13,7 +13,7 @@ public class Program3 {
 //				C) REMOVE ITEMS FROM THE SET.
 //				D) SEARCH THE SPECIFIED ITEM IN THE SET.
 
-		System.out.println("*** Program 4 ***\n");
+		System.out.println("*** Program 3 ***\n");
 
 		TreeSet<Integer> treeSet = new TreeSet<Integer>();
 
