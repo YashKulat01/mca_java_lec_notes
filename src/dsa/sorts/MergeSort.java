@@ -1,7 +1,19 @@
 
-package dsa.dsa2;
+package dsa.sorts;
 
 import java.util.Scanner;
+/*
+ * Merge sort is an algorithm that uses the Divide and Conquer technique.
+ * It divides an array into smaller parts, sorts them, and merge them 
+ * back together in ascending order.
+ * 
+ * Time Complexity:
+ * 				Best: O(n log n)
+ * 				Avg: O(n log n)
+ * 				worst: O(n log n)
+ * 
+ * Space Complexity: O(n)
+ */
 
 public class MergeSort {
 

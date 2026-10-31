@@ -1,4 +1,4 @@
-package dsa.dsa2;
+package dsa.sorts;
 
 import java.util.Scanner;
 

@@ -1,7 +1,38 @@
-package dsa.dsa2;
+package dsa.sorts;
 
 import java.util.Scanner;
-
+/*
+ * Quick sort is a sorting algorithm that uses the Divide and Conquer
+ * technique to sort an array.
+ * 
+ * It selects one element as pivot and places it in its correct position.
+ * Then it divides the array into two parts are: 
+ * 	Elements smaller than the pivot;
+ * 	Elements greater than the pivot;
+ * 
+ * It repeats this process until the entire array is sorted.
+ * 
+ * Time Complexity:
+ * 				Best: O (n log n)
+ * 				Average: O (n log n)
+ * 				Worst: O (n^2)
+ * 
+ * Space complexity:
+ * 				Average: O(log n) recursion stack;
+ * 				Worst: O(n) recursion stack;
+ * 
+ * Adv: 
+ * 		Fast for large arrays in average cases.
+ * 		Uses in-place partitioning.
+ * 		Does not require another array.
+ * 		Efficient in practice;
+ * 
+ * Disadv:
+ * 		Worst-case time complexity is O(n^2).
+ * 		Uses recursion.
+ * 		Performance depends on pivot selection.
+ * 		It is not a stable sorting algorithm	
+ */
 public class QuickSort {
 	public static int partition(int arr[], int beg, int end) {
 		int piv = arr[beg];

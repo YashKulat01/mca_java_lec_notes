@@ -1,10 +1,34 @@
-package dsa.dsa2;
+package dsa.sorts;
 
 import java.util.Scanner;
 
+/*
+ * Shell Sort is a sorting algorithm that improves upon the insertion
+ * sort by comparing elements that as far apart first and gradually
+ * reducing the gap between them until the gap is 1
+ * 
+ * Time Complexity:
+ * 					Best: O(n log n)
+ * 					Avg: Depends on the gap sequence.
+ * 					Worst: O(n^2)
+ * 
+ * Space complexity: O(1)
+ * 
+ * Adv:
+ * 		Faster than basic insertion sort.
+ * 		Requires no extra array.
+ * 		Easy to implement.
+ * 
+ * Disadv:
+ * 		Performance depends upon the gap.
+ * 		Not a stable sorting algorithm.
+ * 		Usually less suitable than advanced algorithms.
+ */
 public class ShellSorting {
 	static void Sort(int[] a, int n, int inc[], int numinc) {
+		
 		int increment, span, y, j, k, i;
+		
 		for (increment = 0; increment < numinc; increment++) {
 			span = inc[increment];
 			System.out.println();

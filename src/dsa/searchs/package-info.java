@@ -1,4 +1,4 @@
-package dsa.dsa1;
+package dsa.searchs;
 
 /*
 	This package contains the Searching techniques such as:
